@@ -1,4 +1,3 @@
-# Core dependencies
 altair==5.5.0
 attrs==25.3.0
 blinker==1.9.0
@@ -23,7 +22,7 @@ packaging==25.0
 pandas==2.3.2
 pillow==11.3.0
 protobuf==6.32.0
-pyarrow==21.0.0
+pyarrow==11.0.0
 pydeck==0.9.1
 python-dateutil==2.9.0.post0
 python-dotenv==1.1.1
@@ -47,7 +46,5 @@ typing_extensions==4.15.0
 tzdata==2025.2
 urllib3==2.5.0
 watchdog==6.0.0
-
-# PyTorch CPU-only (for Python 3.12)
 torch==2.8.0
-torchvision==0.23.0
+torchvision==0.17.2
