@@ -46,10 +46,7 @@ typing_extensions==4.15.0
 tzdata==2025.2
 urllib3==2.5.0
 watchdog==6.0.0
-torch==2.1.0
-torchvision==0.16.0
 
 # PyTorch CPU-only for Streamlit Cloud
 torch==2.8.0+cpu --extra-index-url https://download.pytorch.org/whl/cpu
 torchvision==0.23.0+cpu --extra-index-url https://download.pytorch.org/whl/cpu
-
