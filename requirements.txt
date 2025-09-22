@@ -1,3 +1,8 @@
+# PyTorch CPU for Streamlit Cloud
+torch==2.8.0
+torchvision==0.23.0
+
+# Core dependencies
 altair==5.5.0
 attrs==25.3.0
 blinker==1.9.0
@@ -35,7 +40,7 @@ rpds-py==0.27.1
 safetensors==0.6.2
 six==1.17.0
 smmap==5.0.2
-streamlit==1.49.0
+streamlit==1.26.0
 tenacity==9.1.2
 tokenizers==0.22.0
 toml==0.10.2
@@ -46,7 +51,3 @@ typing_extensions==4.15.0
 tzdata==2025.2
 urllib3==2.5.0
 watchdog==6.0.0
-
-# PyTorch CPU-only for Streamlit Cloud
-torch==2.1.0
-torchvision==0.16.0
