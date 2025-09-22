@@ -1,3 +1,4 @@
+# Core dependencies
 altair==5.5.0
 attrs==25.3.0
 blinker==1.9.0
@@ -47,6 +48,6 @@ tzdata==2025.2
 urllib3==2.5.0
 watchdog==6.0.0
 
-# PyTorch CPU for Streamlit Cloud (Python 3.12 compatible)
+# PyTorch CPU-only (for Python 3.12)
 torch==2.8.0
-torchvision==0.16.0
+torchvision==0.23.0
